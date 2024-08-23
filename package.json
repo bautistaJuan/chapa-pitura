@@ -1,0 +1,20 @@
+{
+  "name": "chp-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "chapa-pintura",
+    "autos",
+    "taller",
+    "pintura"
+  ],
+  "author": "juanchidev",
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

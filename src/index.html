@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/pages/home/home.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapa Y Pintura</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="/src/assets/logo.jpg" class="header-logo" alt="Logo" />
+        <img
+          id="open-button"
+          class="header-menu_button"
+          src="/src/assets/open-button.png"
+          class="header-logo"
+          alt="Menu"
+        />
+      </header>
+      <div id="menu-window" class="menu-opened">
+        <div class="div-button">
+          <img
+            id="close-button"
+            class="button-close"
+            src="/src/assets/close-button.png"
+            alt="button-close"
+          />
+        </div>
+        <div class="div-menu_buttons">
+          <a href="/" class="a-menu"> Inicio </a>
+          <a href="/services" class="a-menu"> Servicios </a>
+          <a href="/trabajos" class="a-menu"> Trabajos </a>
+        </div>
+      </div>
+      <main id="app" class="main"></main>
+      <footer class="footer">
+        <form class="form">
+          <h3>Puedes pedir un presupuesto sin ningún compromiso.</h3>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" />
+          <label for="consulta">consulta</label>
+          <textarea name="consulta" id="consulta"></textarea>
+          <a class="form-a" href="#">
+            <button class="form-button">Enviar consulta</button>
+          </a>
+        </form>
+        <img
+          class="footer-location"
+          src="/src/assets/Rectangle 40.png"
+          alt="Location"
+        />
+        <h5 class="footer-h5">José C. Paz, Buenos Aires</h5>
+        <div class="footer-div">
+          <img
+            class="footer-logo"
+            src="/src/assets/logo.jpg"
+            alt="Logo Footer"
+          />
+          <span class="footer-horarios">
+            <h6 class="footer-h6">Horarios</h6>
+            <span class="footer-span">
+              Lunes a viernes
+              <br />9:00 a 18:00
+            </span>
+          </span>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
