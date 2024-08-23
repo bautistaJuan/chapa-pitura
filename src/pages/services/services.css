@@ -1,0 +1,42 @@
+.h1-services {
+    margin: 0;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.section {
+    width: 355px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* scroll-behavior: smooth; */
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+    /* border: solid; */
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: circle;
+    padding-inline-start: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-inline-end: 40px;
+    gap: 15px;
+}
+
+.ul-li::marker {
+    font-size: 1.7rem;
+}
+
+.ul-li {
+    font-size: 1.2rem;
+    text-align: center;
+
+}

@@ -14,4 +14,38 @@ body {
 
 .container {
   min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  min-height: 40rem;
+  color: white;
+  margin: 0 auto;
+  background-color: black;
+  background-image: url("./assets/bg-works-section.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.works-div {
+  /* backdrop-filter: blur(10px); */
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.works .a-facebook {
+  color: rgb(0, 0, 255);
+  padding: 2px;
+}
+
+.a-whatsapp {
+  padding: 2px;
+  color: rgb(3, 255, 3);
 }
