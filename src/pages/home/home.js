@@ -8,12 +8,12 @@ import efectivo from "../../assets/efectivo.png";
 
 export function homePage() {
   const container = (document.createElement("div").innerHtml = `
+  <div id="whp" class="continer-whatsapp">
+    <a href="https://wa.me/+5491123344241?text=Hola%20José!" target="_blank" class="whatsapp-a">
+      <img class="whatsapp-img" src="${whatsApp}" alt="WhatsApp" />
+    </a>
+  </div>
   <section class="section-presentation">
-      <div id="whp" class="continer-whatsapp">
-        <a href="https://wa.me/+5491123344241?text=Hola%20José!" target="_blank" class="whatsapp-a">
-          <img class="whatsapp-img" src="${whatsApp}" alt="WhatsApp" />
-        </a>
-      </div>
       <h1 class="section-h1">
         <span class="h1-gradient">chapa</span> <br /><span class="h1-gradient"
           >y</span

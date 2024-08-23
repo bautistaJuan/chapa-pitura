@@ -114,7 +114,7 @@
 }
 
 .whatsapp-img {
-    width: 5rem;
+    width: 3.6rem;
 }
 
 .whatsapp-a {
@@ -132,7 +132,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 190px 1px;
+    padding: 50px 1px;
 }
 
 @media (min-width:600px) {
@@ -146,11 +146,11 @@
 .section-h1,
 .section-span {
     font-family: "Nosifer", sans-serif;
-    font-size: 3.3rem;
+    font-size: 2.9rem;
 }
 
 .section-h1 {
-    line-height: 70px;
+    line-height: 50px;
 }
 
 .h1-gradient {
@@ -192,10 +192,11 @@
     display: flex;
     flex-direction: column-reverse;
     width: 180px;
+    height: 200px;
 }
 
 .div-h2 {
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 @media (min-width:600px) {
