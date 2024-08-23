@@ -11,9 +11,9 @@
 ### Retos
   - Para este proyecto me propuse a crear sin la ayuda de AI, la mayoria de los recursos fueron de blogs programadores y de stackoverflow por supuesto.
   - Quería tirarme para atras con la idea de hacer una SPA por la complejidad de manejar las rutas con Javascript Vanilla, más bien no tenía algo que me motive para hacerlo, pero fue una experiecia única el haberme propuesto hacer este protecyo. Pude aprender muschisimas cosas.
-  -  Hacerlo en menos de una semana. Podría haberlo hecho en menos de 2 días pero también estaba creando el diseño y aprendiendo algunas funciones avanzadas de Figma
-   - Aprendí como crear un diseño interactivo
-   - Como darle funcionalidades al menú, es decir, navergar entre "páginas". 
+  -  Hacerlo en menos de una semana. Podría haberlo hecho en menos de 2 días pero también estaba creando el diseño y aprendiendo algunas funciones avanzadas de Figma.
+       - Aprendí como crear un diseño interactivo
+       - Como darle funcionalidades al menú, es decir, navergar entre "páginas". 
   - También estuve usarndo Notion para poder organizarme adecuadamente e ir guardando y anotando ciertas cosas que me llamaron la atención.
     
 ### Observaciones 
